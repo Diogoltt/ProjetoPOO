@@ -1,0 +1,15 @@
+C:\Users\diogo\OneDrive\Documentos\dev\CursoBalta\ProjetoPOO\bin\Debug\net8.0\ProjetoPOO.exe
+C:\Users\diogo\OneDrive\Documentos\dev\CursoBalta\ProjetoPOO\bin\Debug\net8.0\ProjetoPOO.deps.json
+C:\Users\diogo\OneDrive\Documentos\dev\CursoBalta\ProjetoPOO\bin\Debug\net8.0\ProjetoPOO.runtimeconfig.json
+C:\Users\diogo\OneDrive\Documentos\dev\CursoBalta\ProjetoPOO\bin\Debug\net8.0\ProjetoPOO.dll
+C:\Users\diogo\OneDrive\Documentos\dev\CursoBalta\ProjetoPOO\bin\Debug\net8.0\ProjetoPOO.pdb
+C:\Users\diogo\OneDrive\Documentos\dev\CursoBalta\ProjetoPOO\obj\Debug\net8.0\ProjetoPOO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\diogo\OneDrive\Documentos\dev\CursoBalta\ProjetoPOO\obj\Debug\net8.0\ProjetoPOO.AssemblyInfoInputs.cache
+C:\Users\diogo\OneDrive\Documentos\dev\CursoBalta\ProjetoPOO\obj\Debug\net8.0\ProjetoPOO.AssemblyInfo.cs
+C:\Users\diogo\OneDrive\Documentos\dev\CursoBalta\ProjetoPOO\obj\Debug\net8.0\ProjetoPOO.csproj.CoreCompileInputs.cache
+C:\Users\diogo\OneDrive\Documentos\dev\CursoBalta\ProjetoPOO\obj\Debug\net8.0\ProjetoPOO.sourcelink.json
+C:\Users\diogo\OneDrive\Documentos\dev\CursoBalta\ProjetoPOO\obj\Debug\net8.0\ProjetoPOO.dll
+C:\Users\diogo\OneDrive\Documentos\dev\CursoBalta\ProjetoPOO\obj\Debug\net8.0\refint\ProjetoPOO.dll
+C:\Users\diogo\OneDrive\Documentos\dev\CursoBalta\ProjetoPOO\obj\Debug\net8.0\ProjetoPOO.pdb
+C:\Users\diogo\OneDrive\Documentos\dev\CursoBalta\ProjetoPOO\obj\Debug\net8.0\ProjetoPOO.genruntimeconfig.cache
+C:\Users\diogo\OneDrive\Documentos\dev\CursoBalta\ProjetoPOO\obj\Debug\net8.0\ref\ProjetoPOO.dll
