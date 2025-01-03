@@ -1,2 +1,23 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using ProjetoPOO.ContentContext;
+
+namespace ProjetoPOO
+{
+    public class Program
+    {
+        static void Main(string[] args)
+        {
+            var articles = new List<Article>();
+            articles.Add(new Article("Artigo sobre OOP", "orientacao-objetos"));
+            articles.Add(new Article("Artigo sobre C#", "csharp"));
+            articles.Add(new Article("Artigo sobre .NET", "dotnet"));
+
+
+            foreach (var article in articles)
+            {
+                System.Console.WriteLine(article.Id);
+                System.Console.WriteLine(article.Title);
+                System.Console.WriteLine(article.Url);
+            }
+        }
+    }
+}
