@@ -1,5 +1,7 @@
 ﻿using System.Linq;
 using ProjetoPOO.ContentContext;
+using ProjetoPOO.NotificationContext;
+using ProjetoPOO.SubscriptionContext;
 
 namespace ProjetoPOO
 {
@@ -13,12 +15,12 @@ namespace ProjetoPOO
             articles.Add(new Article("Artigo sobre .NET", "dotnet"));
 
 
-           /*  foreach (var article in articles)
-            {
-                System.Console.WriteLine(article.Id);
-                System.Console.WriteLine(article.Title);
-                System.Console.WriteLine(article.Url);
-            } */
+            /*  foreach (var article in articles)
+             {
+                 System.Console.WriteLine(article.Id);
+                 System.Console.WriteLine(article.Title);
+                 System.Console.WriteLine(article.Url);
+             } */
 
             var courses = new List<Course>();
             var courseOOP = new Course("Fundamentos OOP", "fundamentos-oop");
@@ -30,7 +32,7 @@ namespace ProjetoPOO
 
             var careers = new List<Career>();
             var careerDotnet = new Career("Especialista .NET", "especialista-dotnet");
-            var careerItem2 = new CareerItem(2, "Aprenda OOP", "", courseOOP);
+            var careerItem2 = new CareerItem(2, "Aprenda OOP", "", null);
             var careerItem1 = new CareerItem(1, "Comece por aqui", "", courseCsharp);
             var careerItem3 = new CareerItem(3, "Aprenda .NET", "", courseAspNet);
 
@@ -39,16 +41,25 @@ namespace ProjetoPOO
             careerDotnet.Items.Add(careerItem3);
             careers.Add(careerDotnet);
 
-            foreach(var career in careers)
+            foreach (var career in careers)
             {
                 System.Console.WriteLine(career.Title);
-                foreach(var item in career.Items.OrderBy(x => x.Order))
+                foreach (var item in career.Items.OrderBy(x => x.Order))
                 {
                     System.Console.WriteLine($"{item.Order} - {item.Title}");
-                    System.Console.WriteLine(item.Course.Title);
-                    System.Console.WriteLine(item.Course.Level);
+                    System.Console.WriteLine(item.Course?.Title);
+                    System.Console.WriteLine(item.Course?.Level);
+
+                    foreach (var notification in item.Notifications)
+                    {
+                        System.Console.WriteLine($"{notification.Property} - {notification.Message}");
+                    }
                 }
             }
+
+            var payPalSubscription = new PayPalSubscription();
+            var student = new Student();
+            student.CreateSubscription(payPalSubscription);
         }
     }
 }
