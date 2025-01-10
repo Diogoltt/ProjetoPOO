@@ -1,6 +1,6 @@
 using ProjetoPOO.NotificationContext;
 
-namespace ProjetoPOO.ContentContext
+namespace ProjetoPOO.SharedContext
 {
     public abstract class BaseContent : Notifiable
     {

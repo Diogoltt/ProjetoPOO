@@ -1,4 +1,5 @@
 using ProjetoPOO.ContentContext.Enums;
+using ProjetoPOO.SharedContext;
 
 namespace ProjetoPOO.ContentContext
 {

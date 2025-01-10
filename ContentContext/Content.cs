@@ -1,3 +1,5 @@
+using ProjetoPOO.SharedContext;
+
 namespace ProjetoPOO.ContentContext
 {
     public abstract class Content : BaseContent
